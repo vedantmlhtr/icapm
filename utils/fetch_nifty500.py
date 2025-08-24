@@ -3,7 +3,8 @@ from utils.common_imports import *
 # fetch nifty500 constituents
 
 url = "https://www.niftyindices.com/IndexConstituent/ind_nifty500list.csv"
-df = pd.read_csv(url)
+
+df = pd.read_csv("data/raw/nifty500.csv")
 
 # pull stock tickers and make nifty500_tickers array
 

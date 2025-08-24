@@ -7,3 +7,4 @@ matplotlib
 nsepy
 python-dotenv
 os
+itertools

@@ -4,6 +4,7 @@ from pathlib import Path
 from datetime import datetime, date, timedelta
 import yfinance as yf
 import os
+import itertools
 
 import statsmodels.api as sm
 import matplotlib.pyplot as plt
