@@ -1,0 +1,9 @@
+pandas>=1.5
+numpy
+yfinance
+tqdm
+statsmodels
+matplotlib
+nsepy
+python-dotenv
+os
