@@ -66,3 +66,10 @@ if __name__ == "__main__":
     print(f"Selected {len(selected_stocks)} stocks: {selected_stocks}")
     print("Best correlation with GDP:", best_corr)
     print("Best weights:", best_weights)
+
+# extra fn
+
+def get_portfolio(subset_size=15, n_iter=5000):
+    selected_stocks = rank_stocks(subset_size)
+    best_corr, best_weights, selected_stocks = simulate_portfolios(selected_stocks, n_iter=n_iter)
+    return selected_stocks, best_weights
